@@ -11,6 +11,7 @@ class BalanceChangedEvent:
 class Account:
     def __init__(self):
         self.balance = 0
+        self.id = 0
 
     def deposit(self, balance):
         self.balance += balance
