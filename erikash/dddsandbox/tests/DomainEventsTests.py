@@ -1,6 +1,5 @@
 import unittest
-from Account import Account
-from DomainEvents import DomainEvents
+from erikash.dddsandbox.domain import Account, DomainEvents
 
 __author__ = 'erik.ashepa'
 
